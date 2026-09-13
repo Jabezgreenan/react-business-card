@@ -1,0 +1,127 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: "Inter", sans-serif;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #23252C;
+}
+
+
+
+header img{
+    margin: 0;
+    display: block;
+    width: 380px;
+    border-radius: 12px 12px 0px 0px;
+    
+}
+main {
+    background-color: #1A1B21;
+    margin: 0px;
+    padding: 20px 30px;
+    width: 320px;
+    color: white;
+}
+
+.name{
+    text-align: center;
+}
+
+.full-name {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+footer {
+    background-color: #161619;
+    padding: 20px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.btn{
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: unset;
+    width: 115px;
+    height: 30px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    text-decoration: none;
+   
+}
+
+a > img  {
+    width: 30px;
+    height: 30px;
+    
+}
+
+
+.email {
+    background-color: white;
+    color: #374151;
+}
+
+.linkedin {
+    background-color: #5093E2;
+    color: white;
+}
+
+.role {
+    color: #F3BF99;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+
+p{
+    line-height: 25px;
+
+}
+
+.website {
+    margin-top: 9px;
+    margin-bottom: 15px;
+}
+
+.about > h2 {
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.interests > h2 {
+   
+    margin-bottom: 0px;
+}
+
+.about, .interests > p {
+    color: #DCDCDC;
+}
+
+
+footer > a > img {
+    width: 45px;
+    height: 45px;
+}
+
+
